@@ -13,6 +13,7 @@ node_modules/
 # Ignore environment variables
 .env
 .vscode
+.env.local
 
 # NPM or Yarn related files
 package-lock.json

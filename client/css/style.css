@@ -733,7 +733,7 @@ input[type="submit"]:hover {
     height: 50px;
     width: 50px;
     color: #FFF;
-    background: #4CAF50;
+    background: #99CA3C;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -785,7 +785,7 @@ input[type="submit"]:hover {
 }
 
 .chatbot header {
-    background: #4CAF50;
+    background: #99CA3C;
     padding: 16px 0;
     text-align: center;
     position: relative;
@@ -799,7 +799,7 @@ input[type="submit"]:hover {
 .chatbot header i {
     position: absolute;
     right: 20px;
-    top: 50%;
+    top: 20%;
     color: #fff;
     cursor: pointer;
     display: none;
@@ -816,16 +816,29 @@ input[type="submit"]:hover {
     display: flex;
 }
 
+.chatbot header p {
+    margin-bottom: 0 !important;
+    font-size: 15px;
+    padding: 10px 50px;
+    color: #000;
+    font-weight: 500;
+}
+
+.chatbot header h2 {
+    margin-bottom: 0 !important;
+    font-weight: bold;
+}
+
 .chatbox .incoming i {
     height: 32px;
     width: 32px;
     color: #fff;
     align-self: flex-end;
-    background: #4CAF50;
+    background: #99CA3C;
     text-align: center;
     line-height: 32px;
     border-radius: 4px;
-    margin: 0 10px 7px 0;
+    margin: 0 10px 17px 0;
 }
 
 .chatbox .outgoing {
@@ -840,7 +853,7 @@ input[type="submit"]:hover {
     font-size: 0.95rem;
     padding: 12px 16px;
     border-radius: 10px 10px 0 10px;
-    background: #4CAF50;
+    background: #99CA3C;
 }
 
 .chatbox .incoming p {
@@ -875,7 +888,7 @@ input[type="submit"]:hover {
     align-self: flex-end;
     height: 55px;
     /* line-height: 55px; */
-    color: #4CAF50;
+    color: #99CA3C;
     font-size: 1.35rem;
     cursor: pointer;
     visibility: hidden;
@@ -886,6 +899,50 @@ input[type="submit"]:hover {
 }
 
 @media(max-width: 490px) {
+    .chatbot {
+        width: 300px;
+        right: 20px;
+        bottom: 140px;
+        border-radius: 10px;
+        transform: scale(0.8);
+    }
+
+    .chatbot-toggler {
+        bottom: 6rem;
+        right: 15px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .chatbot .chatbox {
+        height: 400px;
+        padding: 20px 15px 50px;
+    }
+
+    .chatbot header i {
+        display: block;
+    }
+
+    .back-to-top {
+        bottom: 2.3rem;
+        right: 15px;
+    }
+
+    .chatbot header {
+        padding: 10px 0;
+    }
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    .btn-lg-square {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media(max-width: 991px) {
     .chatbot {
         width: 300px;
         right: 20px;
