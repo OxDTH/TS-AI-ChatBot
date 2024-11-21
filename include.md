@@ -1,1 +1,0 @@
-add locate us in footer which href should redirect to a page that should contain map of puri.

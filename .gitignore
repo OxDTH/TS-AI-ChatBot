@@ -1,7 +1,6 @@
 bin
 .vscode
 include.md
-include.md
 
 # Ignore node_modules folder
 node_modules/
